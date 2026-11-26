@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "shirotools"
+version = "1.0.0"
+name = "ShiroTools"
+tagline = "Timeline, baking, textures, weights and Unity export toolbag"
+maintainer = "bmilan"
+type = "add-on"
+
+tags = ["Animation", "Rigging", "Bake", "Import-Export", "Mesh", "Render"]
+
+blender_version_min = "5.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Load ivy images, save textures, bakes, renders and FBX exports"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "/tests/", "*.pyc"]
